@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+/*Header*/
+header{
+    height: 60px;
+    border: 5px solid #3b2632;
+    background-color: #3b2632;
+}
+
+/*Search*/
+#search{
+    height: 450px;
+   /* border: 5px double blue;*/
+    background-color: #d9b6ca;
+    background-image: url('Images/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+
+}
+#brand{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.socialLogo{
+    height: 45px;
+    float: right;
+    margin-top: -1%;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 2%;
+    position: absolute;
+    font-size: 90px;
+}
+.logo> span {
+    margin-left: 20%;
+    margin-top: 15%;
+    position: absolute;
+}
+#heading{
+    font-size: 60px;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-top: 15%;
+    position: absolute;
+}
+.dropbox{
+    height: 60px;
+    width: 60%;
+   
+    margin-left: 22%;
+    margin-top: 22%;
+    position: absolute;
+
+}
+select{
+    height: 60px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;   
+}
+#restSelect{
+    width: 59%;
+}
+#thirdBlock{
+    background-color: #d9b6ca;
+}
+
+
+/*QuickSearch*/
+#quickSearch{
+    /*height: 650px;*/
+   background-color: #d9b6ca;
+   /*border: 5px groove green;*/
+   display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.quickHeading{
+    color: #3b2632;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+
+}
+.quickSubHeading{
+    color: #3b2632;
+    font-size: 20px;
+    line-height: 2;
+    
+}
+.titleContainer{
+    height: 180px;
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 3%;
+    /*border: 2px solid black;*/
+    float: left;
+    box-shadow: 10px 20px 10px rgb(170, 213, 220)
+}
+.titleComponent1{
+    width: 52%;
+    float: left;
+}
+.titleComponent1 >img{
+    width: 100%;
+    height: 100%;
+}
+.titleComponent2{
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+.compHeading{
+    font-size: 25px;
+    font-weight: bold;
+    color: #3b2632;
+}
+.compHeading >a{
+    color: #3b2632 !important
+}
+.compSubHeading{
+    font-size: 20px;
+    color: #3b2632;
+
+}
+footer{
+    /*border: 5px solid green;*/
+    background-color:#3b2632;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.footText{
+    font-size: 20px;
+}
+.footDiv{
+    display: inline-block;
+    width: 32%;
+    border-right: 2px solid white;
+
+}
+.noBorder{
+    border: none;
+}
+ul{
+    list-style: none;
+}
